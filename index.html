@@ -4,49 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wave Button</title>
+    <title>My music player</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+    <script src="https://kit.fontawesome.com/457d61aa86.js" crossorigin="anonymous"></script>
+
+    
+</head>
 <body>
-    <div class="wrapper">
-        <section class="form signup">
-            <header> Live Chat App</header>
-            <form action="#">
-                <div class="error-txt">this is an error message!</div>
-                <div class="name-details">
-                    <div class="field">
-                        <label>First Name</label>
-                        <input type="text" placeholder="First Name">
+    
 
-                    </div>
-                    <div class="field">
-                        <label>First Name</label>
-                        <input type="text" placeholder="Last Name">
+   <div class="container">
+    <div class="music-player">
+        <nav>
+            <div class="circle">
+                <i class="fa-solid fa-angles-left"></i>
 
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img src="media/image.jpg" class="song-img">
+        <h1>Apna bana lay</h1>
+        <p>Airijit singh</p>
+        <audio controls>
+            <source src="media/music.mp3">
+        </audio>
 
-                </div>
-                <div class="field">
-                    <label>Email Address</label>
-                    <input type="text" placeholder="Enter Your email">
-
-
-                </div>
-                <div class="field">
-                    <label>Password</label>
-                    <input type="text" placeholder="Enter new Password">
-
-                </div>
-                <div class="field">
-                    <label>Select Image</label>
-                    <input type="file">
-                </div>
-                <div class="field">
-                    <input type="submit" value="Continue to Chat">
-                </div>
-
-            </form>
-            <div class="link">Already signed up? <a href="#">Login now</a></div>
-
-        </section>
     </div>
+
+   </div> 
+</body>
 </html>
