@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #f542f2;
+}
+
+.music-player {
+    width: 360px;
+    padding: 40px 30px;
+    position: relative;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 6px 2px #f542f2 inset;
+    border-radius: 12px;
+}
+.music-player .left{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.music-player .right{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.music-player img {
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0px 0px 6px 2px #f542f2;
+    animation: kajal_singh 1s ease-in-out infinite;
+}
+
+@keyframes kajal_singh {
+    50% {
+        box-shadow: 0px 0px 12px 6px #f542f2;
+    }
+    100%{
+        box-shadow: 0px 0px 6px 2px #f542f2;
+    }
+
+}
+
+.music-player audio {
+    margin-top: 25px;
+}
